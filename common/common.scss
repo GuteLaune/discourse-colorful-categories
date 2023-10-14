@@ -97,6 +97,11 @@
   }
 }
 
+@if $use_category_color_below_header == "true" {
+  .d-header {
+    border-bottom: 3px solid var(--category-color, var(--primary-low-mid));
+}
+
 @if $use-category-color-in-timeline == "true" {
   // timeline colors
 
