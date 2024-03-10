@@ -1,0 +1,19 @@
+@import "common/components/buttons";
+
+:root {
+  // fallback variables
+  --composer-category-text-color: var(--secondary);
+  --composer-category-color: var(--tertiary);
+  --category-color: var(--secondary);
+  --category-text-color: var(--primary-low-mid);
+}
+
+@if $use-category-color-in-buttons == "true" {
+// some other parts of the topic
+  .topic-post article {
+    border-top: 1px solid var(--category-color);
+  }
+  #topic-progress {
+  background-color: var(--category-color);
+  }
+}

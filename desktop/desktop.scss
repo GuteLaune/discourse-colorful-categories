@@ -1,0 +1,25 @@
+@import "common/components/buttons";
+
+:root {
+  // fallback variables
+  --composer-category-text-color: var(--secondary);
+  --composer-category-color: var(--tertiary);
+  --category-color: var(--secondary);
+  --category-text-color: var(--primary-low-mid);
+}
+
+@if $use-category-color-in-buttons == "true" {
+// some other parts of the topic
+  .topic-body {
+    border-top: 1px solid var(--category-color);
+  }
+  .topic-avatar {
+    border-top: 1px solid var(--category-color);
+  }
+  .topic-status-info  {
+    border-top: 1px solid var(--category-color);
+  }
+   .topic-timer-info {
+    border-top: 1px solid var(--category-color);
+  }
+}
