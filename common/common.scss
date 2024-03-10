@@ -116,19 +116,6 @@
 }
 
 @if $use-category-color-in-buttons == "true" {
-// some other parts of the topic
-  .topic-body {
-    border-top: 1px solid var(--category-color);
-  }
-  .topic-avatar {
-    border-top: 1px solid var(--category-color);
-  }
-  .topic-status-info  {
-    border-top: 1px solid var(--category-color);
-  }
-   .topic-timer-info {
-    border-top: 1px solid var(--category-color);
-  }
 
   // some buttons
 
