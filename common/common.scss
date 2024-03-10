@@ -116,6 +116,16 @@
 }
 
 @if $use-category-color-in-buttons == "true" {
+// some other parts of the topic
+  .topic-body {
+    boarder-top: var(--category-color);
+  }
+  .topic-status-info .topic-timer-info {
+    boarder-top: var(--category-color);
+  }
+  .topic-map .buttons .btn {
+    background: var(--category-color)
+  }
   // some buttons
 
   body.category #create-topic,
