@@ -118,10 +118,10 @@
 @if $use-category-color-in-buttons == "true" {
 // some other parts of the topic
   .topic-body {
-    border-top: var(--category-color);
+    border-top: 1px solid var(--category-color);
   }
   .topic-status-info .topic-timer-info {
-    border-top: var(--category-color);
+    border-top: 1px solid var(--category-color);
   }
   .topic-map .buttons .btn {
     background: var(--category-color)
