@@ -13,7 +13,10 @@
   .topic-post article {
     border-top: 1px solid var(--category-color);
   }
-  #topic-progress {
-  background-color: var(--category-color);
+  .topic-status-info  {
+    border-top: 1px solid var(--category-color);
+  }
+   .topic-timer-info {
+    border-top: 1px solid var(--category-color);
   }
 }
