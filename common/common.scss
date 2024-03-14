@@ -116,7 +116,9 @@
 }
 
 @if $use-category-color-in-buttons == "true" {
-
+.topic-list-item, tr {
+  border-bottom: 1px solid var(--category-color);
+  }
   // some buttons
 
   body.category #create-topic,
