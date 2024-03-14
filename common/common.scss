@@ -4,7 +4,7 @@
   // fallback variables
   --composer-category-text-color: var(--secondary);
   --composer-category-color: var(--tertiary);
-  --category-color: var(--secondary);
+  --category-color: var(--tertiary);
   --category-text-color: var(--primary-low-mid);
 }
 
@@ -116,6 +116,9 @@
 }
 
 @if $use-category-color-in-buttons == "true" {
+  .tbody {
+    border-top: 3px solid var(--category-color);
+}
 .topic-list-item, tr {
   border-bottom: 1px solid var(--category-color);
   }
