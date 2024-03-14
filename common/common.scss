@@ -116,7 +116,7 @@
 }
 
 @if $use-category-color-in-buttons == "true" {
-  .tbody {
+  .tbody.topic-list-body {
     border-top: 3px solid var(--category-color);
 }
 .topic-list-item, tr {
