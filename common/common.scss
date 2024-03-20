@@ -99,8 +99,8 @@
 
 @if $use_category_color_below_header == "true" {
   .d-header {
-    background-color: var(--primary-low);
-    border-bottom: 3px solid var(--category-color, var(--primary-low));
+    background-color: var(--primary,  var(--header_background));
+    border-bottom: 3px solid var(--category-color, var(--primary));
   }
 }
 
@@ -117,7 +117,9 @@
 }
 
 @if $use-category-color-in-buttons == "true" {
-
+  .tbody.topic-list-body {
+    border-top: 3px solid var(--category-color);
+}
   // some buttons
 
   body.category #create-topic,
