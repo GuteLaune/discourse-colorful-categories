@@ -99,8 +99,8 @@
 
 @if $use_category_color_below_header == "true" {
   .d-header {
-    background-color: var(--primary,  var(--header_background));
-    border-bottom: 3px solid var(--category-color, var(--primary));
+    background-color: var(--secondary,  var(--header_background));
+    border-bottom: 3px solid var(--category-color, var(--secondary));
   }
 }
 
