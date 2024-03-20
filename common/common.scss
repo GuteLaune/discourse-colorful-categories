@@ -100,7 +100,7 @@
 @if $use_category_color_below_header == "true" {
   .d-header {
     background-color: var(--primary-low);
-    border-bottom: 3px solid var(--category-color, var(--primary-low-mid));
+    border-bottom: 3px solid var(--category-color, var(--primary-low));
   }
 }
 
@@ -117,9 +117,7 @@
 }
 
 @if $use-category-color-in-buttons == "true" {
-.topic-list-item, tr {
-  border-bottom: 1px solid var(--category-color);
-  }
+
   // some buttons
 
   body.category #create-topic,
